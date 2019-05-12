@@ -1,0 +1,14 @@
+{
+  "name": "bogo_apps",
+  "version": "1.0.0",
+  "description": "training",
+  "scripts": {
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^1.12.3"
+  }
+}
