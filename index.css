@@ -54,6 +54,8 @@ body {
 }
 
 .buttonnav {
+    display: flex;
+    flex-direction: row;
     background: linear-gradient(to top, #3591fe, #27d3fe);
     border: #ffffff solid 8px;
     box-shadow: 0 0 5px #3e82ff;
@@ -65,14 +67,15 @@ body {
     color: #ffffff;
 }
 
-.buttonnav::after {
-    content: " ";
-    width: 0; 
-    height: 0; 
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    
-    border-left: 5px solid green;
+.buttonarrow {
+    display: flex;
+    flex-direction: row;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid white;
+   
 }
 
 a {
