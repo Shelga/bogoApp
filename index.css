@@ -75,7 +75,6 @@ body {
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
     border-left: 15px solid white;
-   
 }
 
 a {
@@ -112,4 +111,64 @@ a {
     background-color: #ffc000;
     transform: rotate(45deg);
     border-radius: 1px;
+}
+
+.blueblok {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.whitetext {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.rightPicture {
+    width: 900px;
+    height: 600px;
+    margin-left: 35px;
+}
+
+.leftPicture {
+    width: 100px;
+    height: 100px;
+}
+
+.blueAndWhiteButton {
+    background: linear-gradient(to top, #ff9d44, #feb543);
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 10px #e35912;
+    border: #ffffff solid 8px;
+    box-shadow: 0 80 2px #020813;
+    border-radius: 50px;
+    width: 400px;
+    height: 100px;
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+    color: #ffffff;
+}
+
+.leftPicture {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 500px;
+    margin-left: 35px;
+}
+
+.bluetextmax {
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    font-weight: bold;
+    color: #5276f1;
+}
+
+.bluetextmin {
+    display: flex;
+    flex-direction: row;
+
 }
