@@ -4,10 +4,10 @@
 }
 
 body {
-    
     color: #ffffff;
     background-color: #2f5eff;
 }
+
 header {
     background-color: #2f5eff;
 }
@@ -126,6 +126,7 @@ a {
 }
 
 .whitetext {
+    margin-top: 30px;
     font-size: 100px;
     font-weight: bold;
 }
@@ -155,6 +156,7 @@ a {
     font-family: 'Fredoka One', cursive;
     color: #ffffff;
     padding-left: 35px;
+    margin-top: 30px;
 }
 
 .leftPicture {
@@ -166,7 +168,6 @@ a {
     border-radius: 0 10% 10% 0;
     border-left: none;
     margin-top: 50px;
-    
 }
 
 .bluetextmax {
@@ -186,8 +187,8 @@ a {
     color: #8a94bd;
     line-height: 1.9;
     margin-top: 30px;
-
 }
+
 .bluetext {
     margin-top: 90px;
 }
@@ -198,18 +199,31 @@ a {
     background-color: #f6f6fe;
     margin-top: 100px;
 }
+
 .WhiteButton {
     background: linear-gradient(to top, #ff9d44, #feb543);
     display: flex;
     flex-direction: row;
-    box-shadow:  0 5px #e35912;
+    box-shadow: 0 5px #e35912;
     border-radius: 50px;
     width: 250px;
     height: 80px;
     font-size: 30px;
     font-family: 'Fredoka One', cursive;
-    color: #ffffff;   
+    color: #ffffff;
     margin-left: 90px;
     margin-top: 50px;
     padding-left: 35px;
+}
+
+.threeBlocks {
+    background-color: #edeffb;
+    color: #6d7db7;
+}
+.oneBlock {
+
+    display: flex;
+    flex-direction: row;
+    background-color: #fafafc;
+    margin-top: 100px;
 }
