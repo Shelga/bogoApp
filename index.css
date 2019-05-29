@@ -221,6 +221,8 @@ a {
     justify-content: center;
     background-color: #edeffb;
     color: #6d7db7;
+    
+    
 }
 
 .oneBlock {
@@ -234,6 +236,8 @@ a {
     margin-left: 15px;
     margin-right: 15px;
     box-shadow: 0 5px 5px #c0c4e0;
+    font-size: 30px;
+    text-align: center;
 }
 
 .twoBlock {
@@ -247,6 +251,8 @@ a {
     margin-left: 15px;
     margin-right: 15px;
     box-shadow: 0 5px 5px #c0c4e0;
+    font-size: 30px;
+    text-align: center;
 }
 
 .threeBlock {
@@ -260,4 +266,9 @@ a {
     margin-left: 15px;
     margin-right: 15px;
     box-shadow: 0 5px 5px #c0c4e0;
+    font-size: 30px;
+    text-align: center;
+}
+.threeBlockText {
+    font-size: 20px;
 }
