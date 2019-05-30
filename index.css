@@ -272,3 +272,46 @@ a {
 .threeBlockText {
     font-size: 20px;
 }
+
+
+
+.orangeblok {
+    display: flex;
+    flex-direction: row;
+    
+    background: linear-gradient(to left, #ffa141, #fb772f);
+}
+
+.whitetextInOrange {
+    margin-top: 30px;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.rightPicture {
+    width: 900px;
+    height: 600px;
+    margin-left: 35px;
+}
+
+
+.blueAndWhiteButtonInOrange {
+    margin-top: 70px;
+    margin-left: 70px;
+    background: linear-gradient(to top, #3591fe, #27d3fe);
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 5px #e35912;
+    border: #ffffff solid 8px;
+    box-shadow: 0 80 2px #020813;
+    border-radius: 50px;
+    width: 400px;
+    height: 100px;
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+    color: #ffffff;
+    padding-left: 35px;
+    margin-top: 30px;
+}
